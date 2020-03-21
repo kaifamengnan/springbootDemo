@@ -1,0 +1,11 @@
+#设置对输出日期的格式化
+spring.jackson.date-format=yyyy-MM-dd
+
+#设置时区
+spring.jackson.time-zone=GMT+8
+
+#设置输入日期的格式化
+spring.mvc.date-format=yyyy-MM-dd
+
+
+

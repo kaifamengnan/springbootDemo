@@ -1,0 +1,19 @@
+spring:
+  jackson:
+    date-format: yyyy-MM-dd
+    time-zone: GMT+8
+
+  mvc:
+    date-format: yyyy-MM-dd
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///springboot?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+    username: root
+    password: 123
+
+  thymeleaf:
+    cache: false
+
+mybatis:
+  mapper-locations: classpath:/mapper/*.xml
